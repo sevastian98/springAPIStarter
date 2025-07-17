@@ -10,7 +10,7 @@ public class HomeController {
     public String index(Model model) {
 
         model.addAttribute("name", "Sevastian");
-        print (adsad)
+        System.out.println("Hello");
 
 
         return "index";
